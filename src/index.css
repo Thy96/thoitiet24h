@@ -162,7 +162,7 @@ h6 {
 
 /* Custom MUI CSS */
 /* Select */
-.demo-simple-select-label{
+#demo-simple-select-label{
   display: none !important;
 }
 .Home_select-position__NV4lp .MuiInputBase-formControl{
@@ -172,6 +172,7 @@ h6 {
 
 .Home_select-position__NV4lp .MuiInputBase-formControl fieldset{
   inset: 0px !important;
+  border: none !important;
 }
 
 .Home_select-position__NV4lp .css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline {
@@ -180,6 +181,10 @@ h6 {
 }
 
 /* Tabs */
+.Home_show-weather__Jw8xd .MuiBox-root.css-1gsv261{
+  border-bottom: 1px solid #fff !important;
+}
+
 .Home_show-weather__Jw8xd .MuiTabs-indicator{
   background-color: #192438 !important;
   height: 3px !important;
@@ -187,7 +192,7 @@ h6 {
 
 .Home_show-weather__Jw8xd .MuiButtonBase-root{
   font-size: 2em !important;
-  color: #fff !important;
+  color: #7c7272 !important;
   transition: 0.4s;
   padding: 13px 25px !important;
   text-transform: none !important;
@@ -202,12 +207,12 @@ h6 {
 }
 
 @media screen and (max-width: 767px) {
-  .css-13xfq8m-MuiTabPanel-root{
+  .Home_show-weather__Jw8xd .MuiTabPanel-root.css-19kzrtu{
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  .Home_show-weather__Jw8xd .MuiButtonBase-root{
     font-size: 1.6em !important;
   }
 }
