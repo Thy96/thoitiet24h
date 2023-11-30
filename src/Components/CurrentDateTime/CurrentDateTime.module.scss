@@ -1,0 +1,30 @@
+p{
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.time-hour{
+    font-size: 55px;
+    margin: 0;
+    line-height: 1.0;
+    span{
+        font-size: 36px;
+        margin-left: 5px;
+        line-height: 1.2;
+        display: inline-block;
+        border-top: 2px solid #fff;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    p{
+        font-size: 12px;
+    }
+
+    .time-hour{
+        font-size: 35px;
+        span{
+            font-size: 22px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.758" y1="0.088" x2="0.247" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a900e1"/>
+      <stop offset="0.395" stop-color="#ee0eb0"/>
+      <stop offset="1" stop-color="#fad504"/>
+    </linearGradient>
+  </defs>
+  <g id="ic_insta" transform="translate(21450 -7719)">
+    <circle id="Ellipse_1450" data-name="Ellipse 1450" cx="31.5" cy="31.5" r="31.5" transform="translate(-21450 7719)" fill="url(#linear-gradient)"/>
+    <g id="Group_29499" data-name="Group 29499" transform="translate(-21444.867 7724.134)">
+      <g id="Group_29496" data-name="Group 29496" transform="translate(11 11)">
+        <path id="Path_117720" data-name="Path 117720" d="M33.458,11H19.274A8.223,8.223,0,0,0,11,19.274V33.458a8.223,8.223,0,0,0,8.274,8.274H33.458a8.223,8.223,0,0,0,8.274-8.274V19.274A8.223,8.223,0,0,0,33.458,11Z" transform="translate(-11 -11)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+        <circle id="Ellipse_1444" data-name="Ellipse 1444" cx="1.5" cy="1.5" r="1.5" transform="translate(22.867 4.866)" fill="#fff"/>
+      </g>
+      <g id="Group_29497" data-name="Group 29497" transform="translate(18.902 18.903)">
+        <circle id="Ellipse_1445" data-name="Ellipse 1445" cx="7.5" cy="7.5" r="7.5" transform="translate(-0.036 -0.037)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

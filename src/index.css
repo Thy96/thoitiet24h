@@ -1,13 +1,407 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  color: #111111;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-end {
+  align-items: end;
+}
+
+ol, ul {
+  list-style: none;
+    margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: inherit;
+  display: block;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.active-menu{
+  background-color: rgba(204,204,204,.5);
+  border-bottom: 5px solid #F05822 !important;
+  opacity: 1;
+  color: #fff !important;
+}
+
+/* Custom MUI CSS */
+/* Select */
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused, .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root, .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  display: none !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  background: #fff;
+}
+
+.css-14lo706{
+  display: none !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  font-size: 1.3rem !important;
+}
+
+/* Tabs */
+.css-1gsv261{
+  border-bottom: 1px solid #fff !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+  background-color: #192438 !important;
+  height: 3px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  font-size: 2em !important;
+  color: #fff !important;
+  transition: 0.4s;
+  padding: 13px 25px !important;
+  text-transform: none !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
+  background-color: rgba(204,204,204,.3);
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  background-color: rgba(204,204,204,.5);
+}
+
+@media screen and (max-width: 767px) {
+  .css-13xfq8m-MuiTabPanel-root{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 1.6em !important;
+  }
+}
+
+/* Clock */
+.clock {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto 0;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow:  -8px 8px 15px rgba(225,225,225,0.05),
+       20px 20px 20px rgba(0,0,0,0.2),
+       inset -8px -8px 15px rgba(225,225,225,0.05),
+       inset 20px 20px 20px rgba(0,0,0,0.2);
+  position: relative;
+ 
+}
+.clock::after {
+  content: '';
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 11;
+}
+
+.clock .number {
+  --roation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--roation));
+ 
+  font-size: 1.5rem;
+ padding: 18px;
+}
+
+.number::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 15px;
+  background-color: black;
+}
+
+.clock .number1 {--roation: 30deg}
+.clock .number2 {--roation: 60deg}
+.clock .number3 {--roation: 90deg}
+.clock .number4 {--roation: 120deg}
+.clock .number5 {--roation: 150deg}
+.clock .number6 {--roation: 180deg}
+.clock .number7 {--roation: 210deg}
+.clock .number8 {--roation: 240deg}
+.clock .number9 {--roation: 270deg}
+.clock .number10 {--roation: 300deg}
+.clock .number11 {--roation: 330deg}
+
+.number1 div{
+  transform: rotate(-30deg);
+}
+
+.number2 div{
+  transform: rotate(-60deg);
+}
+.number3 div{
+  transform: rotate(-90deg);
+}
+.number4 div{
+  transform: rotate(-120deg);
+}
+.number5 div{
+  transform: rotate(-150deg);
+}
+.number6 div{
+  transform: rotate(-180deg);
+  
+}
+.number7 div{
+  transform: rotate(-210deg);
+}
+.number8 div{
+  transform: rotate(-240deg);
+}
+.number9 div{
+  transform: rotate(-270deg);
+}
+.number10 div{
+  transform: rotate(-300deg);
+}
+.number11 div{
+  transform: rotate(-330deg);
+}
+
+
+.clock .hand {
+  /* --roation:0; */
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  
+  border: 1px solid white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: black;
+  transform-origin: bottom;
+  /* transform: translate(-50%) rotate(calc(var(--roation)* 1deg)); */
+  z-index: 10;
+}
+
+.clock .hand.second {
+  width: 4px;
+  height: 28%;
+  background-color: red;
+}
+.clock .hand.minute {
+  width: 5px;
+  height: 40%;
+  background-color: black;
+}
+.clock .hand.hour {
+  width: 6px;
+  height: 30%;
+  background-color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .clock{
+    margin-top: 30px;
+  }
+}
+
+/* Scroll To Top */
+.top-to-btm{
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 100;
+}
+.icon-style{
+  background-color: #F05822;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: #F05822;
+  border: 2px solid #F05822;
+}
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-to-btm{
+    bottom: 80px;
+  }
+}
+
+.sp767 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .pc767 {
+    display: none;
+  }
+
+  .sp767 {
+    display: block;
+  }
 }
