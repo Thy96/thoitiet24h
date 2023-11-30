@@ -162,31 +162,30 @@ h6 {
 
 /* Custom MUI CSS */
 /* Select */
-.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused, .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root, .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+.demo-simple-select-label{
   display: none !important;
 }
-.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+.Home_select-position__NV4lp .MuiInputBase-formControl{
   background: #fff;
-}
-
-.css-14lo706{
-  display: none !important;
-}
-
-.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
   font-size: 1.3rem !important;
 }
 
-/* Tabs */
-.css-1gsv261{
-  border-bottom: 1px solid #fff !important;
+.Home_select-position__NV4lp .MuiInputBase-formControl fieldset{
+  inset: 0px !important;
 }
-.css-1aquho2-MuiTabs-indicator{
+
+.Home_select-position__NV4lp .css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: none !important;
+  border-width: 0 !important;
+}
+
+/* Tabs */
+.Home_show-weather__Jw8xd .MuiTabs-indicator{
   background-color: #192438 !important;
   height: 3px !important;
 }
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+.Home_show-weather__Jw8xd .MuiButtonBase-root{
   font-size: 2em !important;
   color: #fff !important;
   transition: 0.4s;
@@ -194,11 +193,11 @@ h6 {
   text-transform: none !important;
 }
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
+.Home_show-weather__Jw8xd .MuiButtonBase-root:hover {
   background-color: rgba(204,204,204,.3);
 }
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+.Home_show-weather__Jw8xd .MuiButtonBase-root.Mui-selected{
   background-color: rgba(204,204,204,.5);
 }
 

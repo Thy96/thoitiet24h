@@ -13,7 +13,7 @@ function Footer(props) {
             <footer>
                 <div className={cx('wrapper', 'flex', 'justify-between', 'align-start', 'flex-wrap')}>
                     <div className={cx('logo-footer')}>
-                        <Link to='/'><img src={images.logo} alt='logo 24h' /></Link>
+                        <Link to='/thoitiet24h/'><img src={images.logo} alt='logo 24h' /></Link>
                         <p>Thoitiet24h liên tục cập nhật các dự báo thời tiết 24/7 chính xác và chi tiết. Đồng thời, đây là nơi cung cấp các thông tin hữu ích liên quan đến thời tiết.</p>
                     </div>
                     <div className={cx('link-archor')}>
