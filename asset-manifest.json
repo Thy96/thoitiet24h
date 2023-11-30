@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thoitiet24h/static/css/main.63886a86.css",
-    "main.js": "/thoitiet24h/static/js/main.f2ea23a7.js",
+    "main.css": "/thoitiet24h/static/css/main.03c760a1.css",
+    "main.js": "/thoitiet24h/static/js/main.614ca203.js",
     "static/js/787.663d6cd9.chunk.js": "/thoitiet24h/static/js/787.663d6cd9.chunk.js",
     "static/media/rain1.gif": "/thoitiet24h/static/media/rain1.22e4dfa7af844efa695d.gif",
     "static/media/sky_3.gif": "/thoitiet24h/static/media/sky_3.53e0a51ce3facb4a68a2.gif",
@@ -32,12 +32,12 @@
     "static/media/ic_linkedin.svg": "/thoitiet24h/static/media/ic_linkedin.8797c3d7932485f6f32020435f3bfb90.svg",
     "static/media/ic_facebook.svg": "/thoitiet24h/static/media/ic_facebook.07e2809211b17b8aacd2276d39b41394.svg",
     "static/media/youtube.svg": "/thoitiet24h/static/media/youtube.f7a86c70380eab7caa5f9031d436b469.svg",
-    "main.63886a86.css.map": "/thoitiet24h/static/css/main.63886a86.css.map",
-    "main.f2ea23a7.js.map": "/thoitiet24h/static/js/main.f2ea23a7.js.map",
+    "main.03c760a1.css.map": "/thoitiet24h/static/css/main.03c760a1.css.map",
+    "main.614ca203.js.map": "/thoitiet24h/static/js/main.614ca203.js.map",
     "787.663d6cd9.chunk.js.map": "/thoitiet24h/static/js/787.663d6cd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63886a86.css",
-    "static/js/main.f2ea23a7.js"
+    "static/css/main.03c760a1.css",
+    "static/js/main.614ca203.js"
   ]
 }
