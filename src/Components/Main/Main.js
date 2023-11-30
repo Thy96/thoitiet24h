@@ -172,8 +172,8 @@ function Main({ idCity, handleChangeIdCity, data, requesting, dataForecastHour, 
             </div>
 
             <Routes>
-                <Route path='/' element={<Home idCity={idCity} handleChangeIdCity={handleChangeIdCity} data={data} requesting={requesting} dataForecastHour={dataForecastHour} requestingForecastHour={requestingForecastHour} showOnTemp={showOnTemp} showOnTime={showOnTime} dateformat={dateformat} speedWind={speedWind} preSsure={preSsure} preCipiTation={preCipiTation} openLightRain={openLightRain}></Home>}></Route>
-                <Route path='/about' element={<About></About>}></Route>
+                <Route path='/thoitiet24h/' element={<Home idCity={idCity} handleChangeIdCity={handleChangeIdCity} data={data} requesting={requesting} dataForecastHour={dataForecastHour} requestingForecastHour={requestingForecastHour} showOnTemp={showOnTemp} showOnTime={showOnTime} dateformat={dateformat} speedWind={speedWind} preSsure={preSsure} preCipiTation={preCipiTation} openLightRain={openLightRain}></Home>}></Route>
+                <Route path='/thoitiet24h/about' element={<About></About>}></Route>
             </Routes>
         </>
     );
