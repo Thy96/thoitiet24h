@@ -206,6 +206,22 @@ h6 {
   background-color: rgba(204,204,204,.5);
 }
 
+/* LightBox Setting */
+.Main_list-view__wDW6l .MuiInputBase-formControl{
+  background: #fff;
+  font-size: 1.3rem !important;
+}
+
+.Main_list-view__wDW6l .MuiInputBase-formControl fieldset{
+  inset: 0px !important;
+  border: none !important;
+}
+
+.Main_list-view__wDW6l .css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: none !important;
+  border-width: 0 !important;
+}
+
 @media screen and (max-width: 767px) {
   .Home_show-weather__Jw8xd .MuiTabPanel-root.css-19kzrtu{
     padding-left: 0 !important;
