@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/thoitiet24h/static/css/main.63886a86.css",
+    "main.js": "/thoitiet24h/static/js/main.dce2a1e3.js",
+    "static/js/787.663d6cd9.chunk.js": "/thoitiet24h/static/js/787.663d6cd9.chunk.js",
+    "static/media/rain1.gif": "/thoitiet24h/static/media/rain1.22e4dfa7af844efa695d.gif",
+    "static/media/sky_3.gif": "/thoitiet24h/static/media/sky_3.53e0a51ce3facb4a68a2.gif",
+    "static/media/img_about.png": "/thoitiet24h/static/media/img_about.2ad88d0342ace6059469.png",
+    "static/media/ic_detail_wind_directio.svg": "/thoitiet24h/static/media/ic_detail_wind_directio.4a61e236b56440d7e0ed3bfa1066fcf1.svg",
+    "static/media/tt24h_doc.svg": "/thoitiet24h/static/media/tt24h_doc.a1f87b84e0c384abd6b27a8a0b015a49.svg",
+    "static/media/ic_detail_uv.svg": "/thoitiet24h/static/media/ic_detail_uv.8d5f365e58e071df8c71c08022ea1333.svg",
+    "static/media/ic_detail_dew.svg": "/thoitiet24h/static/media/ic_detail_dew.e9df32c555dc602f5ca57f6c21567de6.svg",
+    "static/media/ic_detail_sunrise.svg": "/thoitiet24h/static/media/ic_detail_sunrise.f1211eccfda601910901ece252f95ed2.svg",
+    "static/media/ic_detail_sunset.svg": "/thoitiet24h/static/media/ic_detail_sunset.b0a845f3afba8a7af5a29038d3437a76.svg",
+    "static/media/ic_detail_Precipitation.svg": "/thoitiet24h/static/media/ic_detail_Precipitation.1d6e3a1e06efc130a9098ce82e43d757.svg",
+    "static/media/tiktok_new.svg": "/thoitiet24h/static/media/tiktok_new.b220ace54cfffbaa0c1236252ccb4eac.svg",
+    "static/media/ic_detail_rain.svg": "/thoitiet24h/static/media/ic_detail_rain.b5d90e96a908f9f6883540a41adc9a37.svg",
+    "static/media/ic_detail_Humidity.svg": "/thoitiet24h/static/media/ic_detail_Humidity.d8eba3d075bac31200e00fea90ec001a.svg",
+    "static/media/ic_detail_pressure.svg": "/thoitiet24h/static/media/ic_detail_pressure.27c4cfd1b7b1bc20fb28a8c690691138.svg",
+    "static/media/loading.svg": "/thoitiet24h/static/media/loading.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ic_detail_ozone.svg": "/thoitiet24h/static/media/ic_detail_ozone.bf7fe20b23982b4a2a4df683a730c8bc.svg",
+    "static/media/ic_detail_windspeed.webp": "/thoitiet24h/static/media/ic_detail_windspeed.580caae54ab4bc1b6430.webp",
+    "static/media/ic_detail_min-temp.svg": "/thoitiet24h/static/media/ic_detail_min-temp.0e2f8cbf5425e4bad996252b7e44123a.svg",
+    "static/media/ic_detail_max-temp.svg": "/thoitiet24h/static/media/ic_detail_max-temp.e3e92a945dda6ca1c281cf79389d11ad.svg",
+    "static/media/ic_insta.svg": "/thoitiet24h/static/media/ic_insta.f86591e90e0dcfa0602a8d69d2034832.svg",
+    "static/media/ic_detail_feel_like.svg": "/thoitiet24h/static/media/ic_detail_feel_like.59d84ebd2807f50ea6723591383f79ea.svg",
+    "static/media/ic_pinterest.svg": "/thoitiet24h/static/media/ic_pinterest.b0d94abe5efd4cc12950be2cc3f5ac3a.svg",
+    "static/media/ic_twitter.svg": "/thoitiet24h/static/media/ic_twitter.b033ee3fa58e4a867f176e9c37bd995d.svg",
+    "static/media/ic_tumblr.svg": "/thoitiet24h/static/media/ic_tumblr.9fcf9828d67c97f746b9707b7cb24719.svg",
+    "static/media/ic_detail_cloud.svg": "/thoitiet24h/static/media/ic_detail_cloud.866e0cc3ab74580449b43613cc45d6ce.svg",
+    "index.html": "/thoitiet24h/index.html",
+    "static/media/ic_linkedin.svg": "/thoitiet24h/static/media/ic_linkedin.8797c3d7932485f6f32020435f3bfb90.svg",
+    "static/media/ic_facebook.svg": "/thoitiet24h/static/media/ic_facebook.07e2809211b17b8aacd2276d39b41394.svg",
+    "static/media/youtube.svg": "/thoitiet24h/static/media/youtube.f7a86c70380eab7caa5f9031d436b469.svg",
+    "main.63886a86.css.map": "/thoitiet24h/static/css/main.63886a86.css.map",
+    "main.dce2a1e3.js.map": "/thoitiet24h/static/js/main.dce2a1e3.js.map",
+    "787.663d6cd9.chunk.js.map": "/thoitiet24h/static/js/787.663d6cd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63886a86.css",
+    "static/js/main.dce2a1e3.js"
+  ]
+}
