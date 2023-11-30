@@ -43,10 +43,10 @@ function Header({ handleShowModalSetting, openLightRain, handleOpenLightRain }) 
             <header className={cx('head', toggleMenu ? 'fixed' : '', scrollHead ? 'scroll-head' : '', autoWidth ? 'auto-width' : '')}>
                 <div className={cx('wrapper', 'flex', 'justify-between', 'align-center')}>
                     <div className='flex align-center'>
-                        <h1 className={cx('logo')}><Link to='/'><img src={images.logo} alt='logo 24h' /></Link></h1>
+                        <h1 className={cx('logo')}><Link to='/thoitiet24h/'><img src={images.logo} alt='logo 24h' /></Link></h1>
                         <ul className={cx('nav-menu', 'flex', 'justify-between')}>
-                            <li><NavLink to='/' className={menu_active}>Trang Chủ</NavLink></li>
-                            <li><NavLink to='/about' className={menu_active}>Giới Thiệu</NavLink></li>
+                            <li><NavLink to='/thoitiet24h/' className={menu_active}>Trang Chủ</NavLink></li>
+                            <li><NavLink to='/thoitiet24h/about' className={menu_active}>Giới Thiệu</NavLink></li>
                         </ul>
                     </div>
                     <div className={cx('setting', 'flex', 'justify-between', 'align-center')}>
@@ -72,7 +72,7 @@ function Header({ handleShowModalSetting, openLightRain, handleOpenLightRain }) 
                         <nav className={cx("sp-menu")}>
                             <li>
                                 <NavLink
-                                    to="/"
+                                    to="/thoitiet24h/"
                                     onClick={handleClickToggleMenu}
                                     className={menu_active}
                                 >
@@ -81,7 +81,7 @@ function Header({ handleShowModalSetting, openLightRain, handleOpenLightRain }) 
                             </li>
                             <li>
                                 <NavLink
-                                    to="/about"
+                                    to="/thoitiet24h/about"
                                     onClick={handleClickToggleMenu}
                                     className={menu_active}
                                 >
