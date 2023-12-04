@@ -164,6 +164,16 @@
         .btn-toggle{
             display: flex;
             height: 32px;
+            width: 50px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 767px) {
+    .head {
+        .btn-toggle{
+            display: flex;
+            height: 32px;
             width: 61px;
         }
     }
