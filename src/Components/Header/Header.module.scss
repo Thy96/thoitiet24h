@@ -168,8 +168,7 @@
         }
     }
 }
-
-@media screen and (max-device-width: 640px) and (orientation: landscape){
+@supports (-webkit-touch-callout: none) {
     .head {
         .btn-toggle{
             display: flex;
